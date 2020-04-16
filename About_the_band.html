@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:#93bcc9;
+ font-family: courier;
+ padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 700px;
+  background: #94568e;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: verdana;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 700px;
+  background-color: #f5f5f5;
+  text-align: center;
+
+
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color:#8fb7c4;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a:link {
+     color: white;
+}
+
+a:hover { 
+     color:hotpink;
+}
+
+a:visited {
+    color: white;
+}
+
+img 
+    max-height: 100;
+    max-width: 100;
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>𝐓𝐰𝐞𝐧𝐭𝐲 𝟖𝟖<h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home page</a></li>
+      <li><a href="#">About the Band</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+<img src=https://pbs.twimg.com/profile_images/788538317692252161/-zLZJtY5_400x400.jpg height=100 width=100 />
+ </nav>
+  
+  <article>
+      <img src=https://i.iheart.com/v3/re/new_assets/5dd2bfec6676464f963f5df1?ops=contain(740,0)
+      <p> Twenty88 consists of the singer Jhene Aiko and the rapper Big Sean. The two both dated before they decided to become a band. They wanted to become a duotogether to make music about the high and lows of an relationship. They both felt like music now didn't cater to the feelings of a real relationship. The two of them both felt like project is something that's needed.</p>
+      <p> Twenty88 the two made their television debut as Twenty88 on Jimmy Kimmel Live. Their first album was released April 1, 2016. They both had up and downs through out their relationship while dating, so their music relates alot about their relationship. The first album was called Twenty 88. It sold within in minutes.</p>
+      <p> They have 2 albums in total. The first one sold quickly but it was rated 7/10. The second album they made was released in 2019. That album sold quickly. The rating that one recieved was 8/10.</p>
+  </article>
+  
+</section>
+
+<footer>
+    <i>Copyright &copy; 2020 Faatima Ector. All Rights Reserved.<i/>
+</footer>
+
+</body>
+</html>
